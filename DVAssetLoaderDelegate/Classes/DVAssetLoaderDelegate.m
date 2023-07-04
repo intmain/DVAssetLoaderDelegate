@@ -58,7 +58,7 @@ static NSTimeInterval const kDefaultLoadingTimeout = 15;
 }
 
 + (NSString *)scheme {
-    return NSStringFromClass(self);
+    return NSStringFromClass([DVAssetLoaderDelegate class]);
 }
 
 - (void)cancelRequests {
